@@ -1,0 +1,76 @@
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-inverse {
+  background-color: #3c3c3c;
+}
+
+.navbar > .container-fluid .navbar-brand {
+  margin-left: 0;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-toggle {
+  top: 13px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  line-height: 70px;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: $amber;
+}
+
+.navbar-form {
+  position: relative;
+  top: 8px;
+  .form-control {
+    background: #2b2b2b;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+  }
+  .input-group {
+    background: #2b2b2b;
+    border-bottom: 1px solid #545454;
+  }
+  .input-group-addon {
+    padding: 0;
+    background: none;
+    border: 0;
+    border-radius: 0;
+  }
+  .icon-search {
+    background: transparent;
+    border: 0;
+  }
+}
+
+.navbar-collapse.in {
+  min-height: 450px;
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px) and (max-width: 1154px) {
+  .navbar.navbar-inverse > .container-fluid > .row > .col-md-3 {
+    width: 100%;
+  }
+}
